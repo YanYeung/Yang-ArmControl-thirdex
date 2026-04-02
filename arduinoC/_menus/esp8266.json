@@ -1,0 +1,72 @@
+{
+	"PIN_AnalogWrite": {
+		"menu": [
+			["IO0", "0"],
+			["IO1", "1"],
+			["IO2", "2"],
+			["IO3", "3"],
+			["IO4", "4"],
+			["IO5", "5"],
+			["IO9", "9"],
+			["IO10", "10"],
+			["IO12", "12"],
+			["IO13", "13"],
+			["IO14", "14"],
+			["IO15", "15"]
+		]
+	},
+	"PIN_AnalogRead": {
+		"menu": [
+			["A0", "A0"]
+		]
+	},
+	"PIN_DigitalWrite": {
+		"menu": [
+			["IO0", "0"],
+			["IO1", "1"],
+			["IO2", "2"],
+			["IO3", "3"],
+			["IO4", "4"],
+			["IO5", "5"],
+			["IO9", "9"],
+			["IO10", "10"],
+			["IO12", "12"],
+			["IO13", "13"],
+			["IO14", "14"],
+			["IO15", "15"],
+			["IO16", "16"]
+		]
+	},
+	"PIN_DigitalRead": {
+		"menu": [
+			["IO0", "0"],
+			["IO1", "1"],
+			["IO2", "2"],
+			["IO3", "3"],
+			["IO4", "4"],
+			["IO5", "5"],
+			["IO9", "9"],
+			["IO10", "10"],
+			["IO12", "12"],
+			["IO13", "13"],
+			["IO14", "14"],
+			["IO15", "15"],
+			["IO16", "16"]
+		],
+        "default_readUlrasonicSensor_TRIGPIN": "12",
+        "default_readUlrasonicSensor_ECHOPIN": "13"
+	},
+	"PINMODE":{
+		"menu": [
+			["INPUT", "INPUT"],
+			["OUTPUT", "OUTPUT"],
+			["PULLUP", "PULLUP"],
+			["INPUT_PULLUP", "INPUT_PULLUP"],
+			["PULLDOWN", "PULLDOWN"],
+			["INPUT_PULLDOWN", "INPUT_PULLDOWN"],
+			["OPEN_DRAIN", "OPEN_DRAIN"],
+			["OUTPUT_OPEN_DRAIN", "OUTPUT_OPEN_DRAIN"],
+			["SPECIAL", "SPECIAL"]
+		]
+	}
+}

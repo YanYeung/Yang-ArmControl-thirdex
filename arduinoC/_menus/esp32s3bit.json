@@ -1,0 +1,75 @@
+{
+      "PIN_AnalogWrite": {
+		"menu": [
+			["P0", "P0"],
+			["P1", "P1"]
+		]
+	},
+	"PIN_AnalogRead": {
+		"menu": [
+			["P0", "P0"],
+			["P1", "P1"]
+		]
+	},
+	"PIN_DigitalWrite": {
+		"menu": [
+            ["P0", "P0"],
+            ["P1", "P1"],
+            ["P2", "eP2"],
+            ["P3", "eP3"],
+            ["P4", "eP4"],
+            ["P6", "eP6"],
+            ["P8", "eP8"],
+            ["P9", "eP9"],
+            ["P10", "eP10"],
+            ["P12", "eP12"],
+            ["P13", "eP13"],
+            ["P14", "eP14"],
+            ["P15", "eP15"]
+		],
+        "default_trafficLight_PIN1": "P2",
+        "default_trafficLight_PIN2": "P3"
+	},
+	"PIN_DigitalRead": {
+		"menu": [
+            ["P0", "P0"],
+            ["P1", "P1"],
+            ["P2", "eP2"],
+            ["P3", "eP3"],
+            ["P4", "eP4"],
+            ["P6", "eP6"],
+            ["P8", "eP8"],
+            ["P9", "eP9"],
+            ["P10", "eP10"],
+            ["P12", "eP12"],
+            ["P13", "eP13"],
+            ["P14", "eP14"],
+            ["P15", "eP15"]
+		],
+        "default_readUlrasonicSensor_TRIGPIN": "P2",
+        "default_readUlrasonicSensor_ECHOPIN": "P3"
+	},
+	"PINMODE":{
+		"menu": [
+			
+			["INPUT", "INPUT"],
+			["OUTPUT", "OUTPUT"],
+			["INPUT_PULLUP", "INPUT_PULLUP"]
+		]
+	},
+
+      "UART_Rx_PIN":{
+		"menu": [
+			["P0", "P0"],
+			["P1", "P1"]
+
+		]
+	},
+	"UART_Tx_PIN":{
+		"menu": [
+            	["P1", "P1"],
+			["P0", "P0"]
+		]
+	}
+
+}

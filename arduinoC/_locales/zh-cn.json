@@ -1,0 +1,6 @@
+{
+    "arm_control_extension.initArm|block": "初始化机械臂控制 Tx [TX] Rx [RX]",
+    "arm_control_extension.moveServo|block": "控制机械臂舵机 ID [ID] 位置 [POS] 时间 [TIME]ms",
+    "arm_control_extension.runActionGroup|block": "机械臂执行动作组 [NUM] 次数 [TIMES]",
+    "arm_control_extension.stopActionGroup|block": "机械臂停止动作组"
+}

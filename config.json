@@ -1,0 +1,24 @@
+{
+  "name": {
+    "zh-cn": "机械臂控制扩展",
+    "en": "arm control extension"
+  },
+  "description": {
+    "zh-cn": "机械臂控制扩展",
+    "en": "arm control extension"
+  },
+  "author": "Yang",
+  "email": "21891153@qq.com",
+  "license": "MIT",
+  "isBoard": false,
+  "id": "arm_control_extension",
+  "version": "0.1.0",
+  "platform": [ "win", "mac", "web" ],
+  "asset": {
+    "arduinoC": {
+      "dir": "arduinoC/",
+      "board": [ "microbit", "esp32", "firebeetleesp32", "firebeetleesp32e", "pico", "telloesp32", "arduino","arduinounor3","arduinonano", "mega2560", "leonardo", "esp8266", "esp32s3bit"],
+      "main": "main.ts"
+    }
+  }
+}
