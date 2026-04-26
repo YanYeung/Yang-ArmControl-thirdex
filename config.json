@@ -12,12 +12,12 @@
   "license": "MIT",
   "isBoard": false,
   "id": "arm_control_extension",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "platform": [ "win", "mac", "web" ],
   "asset": {
     "arduinoC": {
       "dir": "arduinoC/",
-      "board": [ "microbit", "esp32", "firebeetleesp32", "firebeetleesp32e", "pico", "telloesp32", "arduino","arduinounor3","arduinonano", "mega2560", "leonardo", "esp8266", "esp32s3bit"],
+      "board": [ "esp32", "esp32s3bit"],
       "main": "main.ts"
     }
   }
