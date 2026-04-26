@@ -12,9 +12,9 @@
 
 该扩展支持以下主流开发板：
 
-- **ESP32 系列**：ESP32, FireBeetle-ESP32, FireBeetle-ESP32-E, Tello-ESP32, ESP32-S3-Bit
-- **Arduino 系列**：Uno R3, Nano, Mega2560, Leonardo
-- **其他**：Micro:bit, Raspberry Pi Pico, ESP8266
+- **ESP32 系列**：掌控板、行空板K10
+
+
 
 ## 安装方法
 
@@ -45,3 +45,6 @@
 ### v0.1.0
 - 初始版本发布。
 - 支持基本的初始化、动作组运行与停止功能。
+
+### v0.1.1
+- 删除不支持的板卡类型
